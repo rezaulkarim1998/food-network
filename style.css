@@ -1,0 +1,81 @@
+
+body{
+    font-family: 'Lora', serif;
+    margin:0;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size:50px;
+    font-weight: bolder;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+}
+#first-section{
+    display:flex;
+    background-image:url(Frame58.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.first-sec-div{
+    width:50%;
+    margin-left:7%;
+    margin-right:5%;
+}
+.first-sec-div img{
+    width:95%;
+}
+.span-class{
+    color:orange;
+}
+.visit-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    padding:10px 30px;
+    border-radius:15px;
+}
+#second-section{
+    display:flex;
+    background-image:url(Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: right;
+    margin:100px 0px;
+    padding:30px;
+}
+.second-div{
+    width:50%;
+    margin-left:7%;
+    margin-right:5%;
+}
+.second-div img{
+    width:50%;
+}
+#third-section{
+    width:50%;
+    margin:auto;
+    margin-bottom:100px;
+}
+#third-section div{
+    text-align:center;
+}
+#recipe-section{
+    display:flex;
+    margin-bottom:100px;
+}
+.main-div{
+    width:30%;
+    margin-left:5%;
+    margin-right:5%;
+    padding:20px;
+    box-shadow:10px 10px 20px;
+    border-radius:10px;
+}
+.main-div img{
+    width:100%;
+}
+.bold-head{
+    font-size:20px;
+    font-weight:900;
+}
