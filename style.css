@@ -12,18 +12,48 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-weight:700;
 }
-#first-section{
+/* header section start here */
+header{
     display:flex;
-    background-image:url(Frame58.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
+    background:#EBF8FF;
 }
-.first-sec-div{
+.logo-div{
+    margin:10px 30px;
+}
+.logo-div h1{ font-size:40px;
+    font-weight:bolder;
+    color:goldenrod;
+}
+.nav-div li a{
+    text-decoration:none;
+    color:white;
+  
+    
+}
+.nav-div li{
+    
+    display:inline-block;
+    margin:20px 30px;
+    padding:10px 30px;
+    background:gray;
+    border-radius:10px;
+}
+    /* header section end here */
+
+    /* banner section start here */
+#banner-section{
+    display:flex;
+    background-image: url(frame1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: bottom center;
+    }
+.banner-sec-div{
     width:50%;
     margin-left:7%;
     margin-right:5%;
 }
-.first-sec-div img{
+.banner-sec-div img{
     width:95%;
 }
 .span-class{
@@ -31,46 +61,64 @@ h2{
 }
 .visit-button{
     text-decoration: none;
-    background-image: linear-gradient(orange,red);
+    background-image: linear-gradient(to left,orange,red);
     padding:10px 30px;
     border-radius:15px;
+    margin-top:20px;
 }
-#second-section{
+/* banner section end here */
+
+/* recipe title section start here */
+#recipe-title{
     display:flex;
-    background-image:url(Frame\ 57.jpg);
+    background-image:url(7.png);
     background-repeat: no-repeat;
-    background-size:100% 100%;
+    background-size:cover;   
     background-position: right;
     margin:100px 0px;
-    padding:30px;
+    padding-top:50px;
+    
 }
-.second-div{
-    width:50%;
+.recipe-title-div{
+    width:60%;
     margin-left:7%;
     margin-right:5%;
 }
-.second-div img{
+.recipe-title-div img{
     width:50%;
+    
 }
-#third-section{
+.recipe-title-id{
+    margin-top: 60px;
+}
+/* recipe section end here */
+
+/* About section start here */
+#About-section{
     width:50%;
     margin:auto;
     margin-bottom:100px;
 }
-#third-section div{
+#About-section div{
     text-align:center;
 }
-#recipe-section{
+/* About section end here */
+/* recipe section start here */
+.flexible-sec{
     display:flex;
+}
+#recipe-section{
     margin-bottom:100px;
 }
 .main-div{
     width:30%;
     margin-left:5%;
-    margin-right:5%;
     padding:20px;
-    box-shadow:10px 10px 20px;
-    border-radius:10px;
+    box-shadow:10px 10px 20px 10px rgb(207, 204, 204);
+    border-radius:15px;
+}
+.main-div:last-child{
+    margin-right:5%;
 }
 .main-div img{
     width:100%;
@@ -79,3 +127,41 @@ h2{
     font-size:20px;
     font-weight:900;
 }
+/* recipe section end here */
+
+/* social section start here */
+#social-section{
+    box-shadow:10px 10px 20px rgb(99, 97, 97);
+    border-radius:10px;
+    
+    
+    margin:5%;
+}
+.social-div{
+    width:30%;
+    text-align: center;
+    padding:30px;
+    margin-left:5%;
+
+    
+}
+.social-div:last-child{
+    margin-right:5%;
+}
+.social-div h1{
+    margin:0;
+}
+/* social section end here */
+
+footer{
+    background:#171a18;
+    padding: 20px 0px 60px 0px;
+}
+footer p{
+    font-size:12px;
+}
+footer div{
+    text-align:center;
+    color:rgb(214, 202, 202);
+}
+
